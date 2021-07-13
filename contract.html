@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contract</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        .box {
+            margin: 100px auto;
+            width: 500px;
+        }
+    </style>
+    
+  <link href="images/6535279_preview.png" rel="icon" />
+
+</head>
+
+<body>
+    <div class="box">
+        <form id="my-form" action="https://formspree.io/f/xqkwarzp" method="POST">
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" class="form-control" name="email" id="Email">
+            </div>
+            <div class="form-group" style="display: none;">
+                <label for="Message">Message</label>
+                <input type="message" name="message" class="form-control" id="Message"
+                    value="Interest in your website and request to be a member">
+            </div>
+            <button type="submit" class="btn btn-info btn-block">Send</button>
+        </form>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>
+
+
+        <script src="js/firebase-config.js"></script>
+        <script src="js/mail.js"></script>
+</body>
+
+</html>

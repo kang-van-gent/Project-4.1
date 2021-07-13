@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="images/6535279_preview.png" rel="icon" />
+
+    <style>
+        .sign-in {
+            width: 30%;
+            margin: 200px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        @media (max-width: 1000px) {
+            .sign-in {
+                width: 80%;
+
+            }
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 1px solid #888;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sign-in">
+        <div class="header">
+            <img src="images/6535279_preview.png" alt="" style="width: 50px;">
+            <h4>SIGN IN</h4>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="password">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col align-self-start">
+
+                    </div>
+                    <div class="col align-self-center">
+
+                    </div>
+                    <div class="col align-self-end"
+                        style="text-align: end; margin-bottom: 10px; text-decoration: underline; font-size: 11px;">
+                        <a href="register.html">Creat new account?</a>
+                    </div>
+                </div>
+            </div>
+            <a href="index.html" type="button" class="btn btn-info btn-lg btn-block">Sign in</a>
+        </form>
+    </div>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.4.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.4.2/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
+
+</html>
